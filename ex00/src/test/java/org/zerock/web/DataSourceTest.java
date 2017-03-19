@@ -22,6 +22,7 @@ public class DataSourceTest {
 		try(Connection con = ds.getConnection()){
 			
 			System.out.println(con);
+			System.out.println("SUCCESSFUL!");
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
